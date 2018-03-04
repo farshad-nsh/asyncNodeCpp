@@ -1,0 +1,82 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXFileReference section */
+		FA23865C20492DDD005D04CC /* processingTask_node.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = processingTask_node.cpp; sourceTree = "<group>"; };
+		FA23865D2049314A005D04CC /* processingTask.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = processingTask.h; sourceTree = "<group>"; };
+		FA23865E204931E6005D04CC /* binding.gyp */ = {isa = PBXFileReference; lastKnownFileType = text; path = binding.gyp; sourceTree = "<group>"; };
+		FA23865F2049327C005D04CC /* processingTask.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = processingTask.cpp; sourceTree = "<group>"; };
+		FA8ACE04204934E7002B881A /* Makefile */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.make; path = Makefile; sourceTree = "<group>"; };
+		FA8ACE052049362F002B881A /* processingTask_test.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = processingTask_test.cpp; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXGroup section */
+		FA23865520492CCB005D04CC = {
+			isa = PBXGroup;
+			children = (
+				FA8ACE052049362F002B881A /* processingTask_test.cpp */,
+				FA8ACE04204934E7002B881A /* Makefile */,
+				FA23865F2049327C005D04CC /* processingTask.cpp */,
+				FA23865E204931E6005D04CC /* binding.gyp */,
+				FA23865D2049314A005D04CC /* processingTask.h */,
+				FA23865C20492DDD005D04CC /* processingTask_node.cpp */,
+			);
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXProject section */
+		FA23865620492CCB005D04CC /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0730;
+			};
+			buildConfigurationList = FA23865920492CCB005D04CC /* Build configuration list for PBXProject "process" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = FA23865520492CCB005D04CC;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+			);
+		};
+/* End PBXProject section */
+
+/* Begin XCBuildConfiguration section */
+		FA23865A20492CCB005D04CC /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+			};
+			name = Debug;
+		};
+		FA23865B20492CCB005D04CC /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		FA23865920492CCB005D04CC /* Build configuration list for PBXProject "process" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FA23865A20492CCB005D04CC /* Debug */,
+				FA23865B20492CCB005D04CC /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = FA23865620492CCB005D04CC /* Project object */;
+}
